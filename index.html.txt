@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS Business Solutions LLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 150px;
+            height: auto;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x400');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            color: #fff;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .service {
+            background: #fff;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .service h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            background: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #ffa500;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo 2.png" alt="ATS Business Solutions Logo">
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Welcome to ATS Business Solutions LLC</h1>
+    <p>Your trusted partner in launching and structuring your startup in Charlotte, NC.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>At ATS Business Solutions LLC, we specialize in helping startups establish a strong foundation for success. Whether you need assistance with EIN filing, LLC formation, or creating a professional website, our expert team is here to guide you every step of the way.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service">
+            <h3>EIN Filing</h3>
+            <p>We handle all the paperwork to obtain your Employer Identification Number quickly and efficiently.</p>
+        </div>
+        <div class="service">
+            <h3>LLC Formation</h3>
+            <p>Let us guide you through the process of forming your Limited Liability Company with ease.</p>
+        </div>
+        <div class="service">
+            <h3>Website Design</h3>
+            <p>We create stunning, user-friendly websites tailored to your business needs.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Ready to get started? Reach out to us today!</p>
+    <p>Email: <a href="mailto:info@atsbusinesssolutions.com">info@atsbusinesssolutions.com</a></p>
+    <p>Phone: <a href="tel:+17045551234">(704) 555-1234</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 ATS Business Solutions LLC. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
